@@ -1,8 +1,20 @@
-/**************************************************************************************************
+/**
  * ByteOperationsTest.java
- * This file was developed by Joshua Dickson for Autoliv Inc. 
- * Duplication strictly prohibited. All rights reserved. 
- *************************************************************************************************/
+ * 
+ * Copyright 2013 Joshua Dickson
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 package byteoperations;
 
 import static org.junit.Assert.assertEquals;
@@ -22,6 +34,8 @@ import org.junit.Test;
  * 			Added a test that checked for bug when processing an array of Lidar data
  * 			that produced inaccurate return values for finding the index of an array
  * 			of bytes in another array of bytes
+ * @version September 23, 2013
+ * 			 - Updated licensing information
  */
 public class ByteOperationsTest {
 
