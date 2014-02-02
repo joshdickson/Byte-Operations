@@ -105,6 +105,14 @@
             <classpath refid="ByteOperations.classpath"/>
         </junit>
     </target>
+    <target name="test">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="byteoperations.ByteOperationsTest" todir="${junit.output.dir}"/>
+            <classpath refid="ByteOperations.classpath"/>
+        </junit>
+    </target>
     <target name="ByteOperationsTest">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
