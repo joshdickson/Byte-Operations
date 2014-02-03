@@ -1,9 +1,9 @@
 <?xml version="1.0"?>   
 <project name="java-junit-template-project" default="test" basedir=".">
-  <property name="main.build.dir" value="build/main" />  
-  <property name="main.src.dir" value="src" />
-  <property name="test.build.dir" value="build/test" />
-  <property name="test.src.dir" value="test" />
+  <property name="main.build.dir" value="ByteOperations/build/main" />  
+  <property name="main.src.dir" value="ByteOperations/src" />
+  <property name="test.build.dir" value="ByteOperations/build/test" />
+  <property name="test.src.dir" value="ByteOperations/test" />
 
   <path id="classpath.base" />
 
