@@ -61,7 +61,7 @@
     <target name="test">
         <mkdir dir="${junit.output.dir}"/>
         <junit haltonfailure="no" failureproperty="test.failed" fork="yes">
-            <formatter type="xml"/>
+        	<formatter type="plain" usefile="false"/>
             <test name="byteoperations.ByteOperationsTest" todir="${junit.output.dir}"/>
             <classpath refid="ByteOperations.classpath"/>
         </junit>
