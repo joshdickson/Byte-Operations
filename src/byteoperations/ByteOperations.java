@@ -38,9 +38,10 @@ public class ByteOperations {
 	
 	/**
 	 * Private constructor
+	 * @throws Exception 
 	 */
-	private ByteOperations() {
-		// Intentionally left blank
+	private ByteOperations() throws Exception {
+		throw new IllegalStateException();
 	}
 	
 	/**
