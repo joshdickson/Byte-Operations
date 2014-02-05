@@ -2,7 +2,3 @@ language: java
 
 jdk:
   - oraclejdk7
-  
-before_script:
-  - ant clean
-  - ant build
